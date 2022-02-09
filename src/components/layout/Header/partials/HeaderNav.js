@@ -128,7 +128,7 @@ export const headerNaviagtion = [
             src: "./images/infrastructure-icon.png",
             subTitle: "DeFi",
             decs: "Decentralized finance",
-            path: "/defi",
+            path: "/case-studies/dapper",
           },
           {
             src: "./images/infrastructure-icon.png",
