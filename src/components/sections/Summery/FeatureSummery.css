@@ -1,0 +1,72 @@
+.summery {
+  padding: 40px 0;
+  background-color: #f9f9fb;
+}
+.summery h2 {
+  color: #000;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 400;
+  margin: 16px 0 8px;
+  padding-top: 16px;
+}
+
+.summery .contentWrapper {
+  width: 64%;
+  margin: 0 auto;
+}
+.summery p {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-family: Karla, sans-serif;
+  color: #767b81;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+.summery .dots {
+  text-align: center;
+}
+.summery .dots span {
+  background-color: #5ab0f0;
+  font-size: 0px;
+  width: 4px;
+  height: 4px;
+  margin: 20px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.summery .highlightedText {
+  margin: 36px 0;
+  padding: 60px 40px;
+  border-radius: 16px;
+  background-color: #eaecf0;
+}
+
+.summery .highlightedText p {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #333;
+  line-height: 1.6em;
+}
+.summery .highlightedText small {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+}
+
+@media (max-width: 990px) {
+  .summery .contentWrapper {
+    width: 85%;
+  }
+}
+
+@media (max-width: 568px) {
+  .summery .contentWrapper {
+    width: 100%;
+  }
+}

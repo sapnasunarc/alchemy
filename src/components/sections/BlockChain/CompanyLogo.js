@@ -1,0 +1,18 @@
+export const CompanyLogo = [
+  { src: "../images/customer-logos-18.svg" },
+  { src: "../images/customer-logos-10.svg" },
+  { src: "../images/customer-logos-11.svg" },
+  { src: "../images/customer-logos-12.svg" },
+  { src: "../images/customer-logos-13.svg" },
+  { src: "../images/customer-logos-14.svg" },
+  { src: "../images/customer-logos-15.svg" },
+  { src: "../images/customer-logos-02.svg" },
+  { src: "../images/customer-logos-06.svg" },
+  { src: "../images/customer-logos-07.svg" },
+  { src: "../images/makerdao-logo.svg" },
+  { src: "../images/customer-logos-05.svg" },
+  { src: "../images/customer-logos-09.svg" },
+  { src: "../images/customer-logos-04.svg" },
+  { src: "../images/customer-logos-16.svg" },
+  { src: "../images/customer-logos-17.svg" },
+];

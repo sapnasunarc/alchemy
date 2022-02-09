@@ -1,0 +1,48 @@
+.featureCard {
+  border-radius: 16px;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 8%);
+  margin: 72px 0;
+}
+.featureCard .leftWrapper {
+  padding: 40px;
+}
+
+.featureCard h2 {
+  margin: 16px 0 8px;
+  color: #000;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.featureCard p {
+  font-family: Karla, sans-serif;
+  color: #767b81;
+  font-size: 16px;
+  margin-bottom: 1.6em;
+}
+.featureCard a {
+  text-decoration: none;
+}
+.featureCard a button {
+  padding: 8px 16px;
+  text-transform: initial;
+  background-color: #363ff9;
+}
+.featureCard img {
+  display: block;
+}
+
+@media (max-width: 990px) {
+  .featureCard .leftWrapper {
+    padding: 20px;
+  }
+  .featureCard h2 {
+    font-size: 32px;
+  }
+  .featureCard {
+    margin: 42px 0;
+  }
+}

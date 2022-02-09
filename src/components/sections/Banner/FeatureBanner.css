@@ -1,0 +1,69 @@
+.banner {
+  background-position: 110% 0;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  padding: 60px 0 0;
+  position: relative;
+}
+
+.banner h6.makeStyles-blueColor-2 {
+  color: #5ab0f0;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+.banner h6 {
+  color: #254cdd;
+}
+.banner h2 {
+  margin: 20px 0 10px;
+  max-width: 500px;
+}
+.banner p {
+  font-family: Karla, sans-serif;
+  color: #767b81;
+  font-size: 15px;
+  margin-bottom: 2em;
+}
+
+.banner a button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: #363ff9;
+  box-shadow: 2px 2px 13px -9px #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 250ms, -webkit-transform 250ms;
+  transition-duration: 250ms;
+}
+.banner a:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 568px) {
+  .banner {
+    text-align: center;
+    background-position: bottom;
+  }
+  .banner .contentWrapper {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .banner a button {
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .banner .contentWrapper {
+    max-width: 100%;
+  }
+}

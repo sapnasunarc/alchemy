@@ -1,0 +1,70 @@
+.bgColor {
+  padding: 40px 0;
+  background-color: #f9f9fb;
+}
+.diagramWrapper {
+  text-align: center;
+}
+.diagramWrapper h2 {
+  margin: 24px 0 60px;
+  color: #212122;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.leadingContent h6 {
+  color: #212122;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.leadingContent h2 {
+  margin: 24px 0 16px;
+  color: #212122;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.leadingContent p {
+  color: #767b81;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 854px;
+  margin: 0 auto 1.6em;
+  font-family: Karla, sans-serif;
+}
+
+.supernodePage .banner {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 990px) {
+  .diagramWrapper h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .banner .contentWrapper {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 568px) {
+  .banner .contentWrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .leadingContent h2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}

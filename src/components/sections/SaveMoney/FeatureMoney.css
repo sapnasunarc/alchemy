@@ -1,0 +1,52 @@
+.featureMoney {
+  padding: 32px 0;
+  text-align: center;
+  background-image: linear-gradient(83deg, #4d4df5 34%, #5dcefa 89%);
+}
+
+.featureMoney h2 {
+  margin: 24px 0 16px;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #fff;
+}
+
+.featureMoney .card {
+  max-width: 380px;
+  padding: 40px 0;
+  border-radius: 16px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 24px 8px;
+}
+.featureMoney h3 {
+  margin: 10px 0 16px;
+  color: #212122;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.featureMoney p {
+  color: #767b81;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 200px;
+  margin: 0 auto;
+  font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 990px) {
+  .featureMoney h2,
+  .featureMoney h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .featureMoney .card {
+    margin: 24px auto;
+  }
+}
