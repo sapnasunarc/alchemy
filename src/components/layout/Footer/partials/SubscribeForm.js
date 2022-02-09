@@ -14,7 +14,7 @@ const useForm = (validate) => {
                 setMessage(false);
             }, 2000);
         }
-    }, [errors]);
+    }, [errors, isSubmitting]);
 
     const handleSubmit = event => {
         event.preventDefault();
